@@ -1,0 +1,2 @@
+# NorthGateNifi
+Репозиторий схем Nifi
