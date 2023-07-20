@@ -41,57 +41,97 @@
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
           "groupIdentifier" : "89720476-5062-36e9-936f-09b5757c561a",
-          "identifier" : "4acd2cab-e7d6-31e0-84de-8149af241b7b",
-          "instanceIdentifier" : "746e9e3d-0189-1000-b6f9-2fab87d09e5a",
+          "identifier" : "ca1287cd-1aef-3ed5-9c0f-dc563dafd7a1",
+          "instanceIdentifier" : "7470e8a2-0189-1000-58f3-0a8f49c3934a",
           "maxBackoffPeriod" : "10 mins",
-          "name" : "FetchFile",
+          "name" : "GetFile",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 433.0,
-            "y" : 168.0
+            "x" : 472.0,
+            "y" : 120.0
           },
           "properties" : {
-            "Move Conflict Strategy" : "Rename",
-            "Log level when file not found" : "ERROR",
-            "Log level when permission denied" : "ERROR",
-            "File to Fetch" : "${absolute.path}/${filename}",
-            "Completion Strategy" : "None"
+            "Keep Source File" : "false",
+            "Minimum File Age" : "0 sec",
+            "Polling Interval" : "0 sec",
+            "Input Directory" : "/opt/rosreestr",
+            "Batch Size" : "10",
+            "Minimum File Size" : "0 B",
+            "Ignore Hidden Files" : "true",
+            "Recurse Subdirectories" : "true",
+            "File Filter" : "[^\\.].*"
           },
           "propertyDescriptors" : {
-            "Move Conflict Strategy" : {
-              "displayName" : "Move Conflict Strategy",
+            "Keep Source File" : {
+              "displayName" : "Keep Source File",
               "identifiesControllerService" : false,
-              "name" : "Move Conflict Strategy",
+              "name" : "Keep Source File",
               "sensitive" : false
             },
-            "Log level when file not found" : {
-              "displayName" : "Log level when file not found",
+            "Minimum File Age" : {
+              "displayName" : "Minimum File Age",
               "identifiesControllerService" : false,
-              "name" : "Log level when file not found",
+              "name" : "Minimum File Age",
               "sensitive" : false
             },
-            "Move Destination Directory" : {
-              "displayName" : "Move Destination Directory",
+            "Polling Interval" : {
+              "displayName" : "Polling Interval",
               "identifiesControllerService" : false,
-              "name" : "Move Destination Directory",
+              "name" : "Polling Interval",
               "sensitive" : false
             },
-            "Log level when permission denied" : {
-              "displayName" : "Log level when permission denied",
+            "Input Directory" : {
+              "displayName" : "Input Directory",
               "identifiesControllerService" : false,
-              "name" : "Log level when permission denied",
+              "name" : "Input Directory",
               "sensitive" : false
             },
-            "File to Fetch" : {
-              "displayName" : "File to Fetch",
+            "Maximum File Age" : {
+              "displayName" : "Maximum File Age",
               "identifiesControllerService" : false,
-              "name" : "File to Fetch",
+              "name" : "Maximum File Age",
               "sensitive" : false
             },
-            "Completion Strategy" : {
-              "displayName" : "Completion Strategy",
+            "Batch Size" : {
+              "displayName" : "Batch Size",
               "identifiesControllerService" : false,
-              "name" : "Completion Strategy",
+              "name" : "Batch Size",
+              "sensitive" : false
+            },
+            "Maximum File Size" : {
+              "displayName" : "Maximum File Size",
+              "identifiesControllerService" : false,
+              "name" : "Maximum File Size",
+              "sensitive" : false
+            },
+            "Minimum File Size" : {
+              "displayName" : "Minimum File Size",
+              "identifiesControllerService" : false,
+              "name" : "Minimum File Size",
+              "sensitive" : false
+            },
+            "Ignore Hidden Files" : {
+              "displayName" : "Ignore Hidden Files",
+              "identifiesControllerService" : false,
+              "name" : "Ignore Hidden Files",
+              "sensitive" : false
+            },
+            "Recurse Subdirectories" : {
+              "displayName" : "Recurse Subdirectories",
+              "identifiesControllerService" : false,
+              "name" : "Recurse Subdirectories",
+              "sensitive" : false
+            },
+            "File Filter" : {
+              "displayName" : "File Filter",
+              "identifiesControllerService" : false,
+              "name" : "File Filter",
+              "sensitive" : false
+            },
+            "Path Filter" : {
+              "displayName" : "Path Filter",
+              "identifiesControllerService" : false,
+              "name" : "Path Filter",
               "sensitive" : false
             }
           },
@@ -102,7 +142,7 @@
           "schedulingPeriod" : "0 sec",
           "schedulingStrategy" : "TIMER_DRIVEN",
           "style" : { },
-          "type" : "org.apache.nifi.processors.standard.FetchFile",
+          "type" : "org.apache.nifi.processors.standard.GetFile",
           "yieldDuration" : "1 sec"
         } ],
         "remoteProcessGroups" : [ ],

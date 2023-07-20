@@ -1,5 +1,5 @@
 flows:
-  694db548-fe09-4e2a-8cb5-7adc847eb43a: {ver: 2, file: NorthGate.snapshot, comments: Добавили
-      процессор, author: anonymous, created: 1689875600678, flowName: NorthGate, flowDesc: ''}
+  694db548-fe09-4e2a-8cb5-7adc847eb43a: {ver: 3, file: NorthGate.snapshot, comments: Заменили
+      процессор, author: anonymous, created: 1689875766043, flowName: NorthGate, flowDesc: ''}
 layoutVer: 1
 bucketId: 6732e857-6545-4dda-97d8-116b14c8d807
