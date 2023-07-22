@@ -1,5 +1,6 @@
 flows:
-  694db548-fe09-4e2a-8cb5-7adc847eb43a: {ver: 4, file: NorthGate.snapshot, comments: Добавили
-      процессор, author: anonymous, created: 1689879734303, flowName: NorthGate, flowDesc: ''}
+  694db548-fe09-4e2a-8cb5-7adc847eb43a: {ver: 5, file: NorthGate.snapshot, comments: Удалось
+      перенести геоданные из buildings в houses, author: anonymous, created: 1690062210376,
+    flowName: NorthGate, flowDesc: ''}
 layoutVer: 1
 bucketId: 6732e857-6545-4dda-97d8-116b14c8d807
